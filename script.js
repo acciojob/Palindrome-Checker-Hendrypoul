@@ -9,4 +9,4 @@ const len = str.length;
 	}
 	return true;
 }
-module.exports = palindrome
+module.exports = palindrome;
