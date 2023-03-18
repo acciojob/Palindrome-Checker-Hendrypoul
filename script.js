@@ -5,10 +5,7 @@ function palindrome(str){
 		if(str[i] !== str[str.length - 1 - i]) {
 			return false;
 		}
-		else {
-			return true;
-		}
 	}
-	
+	return true;
 }
 module.exports = palindrome
